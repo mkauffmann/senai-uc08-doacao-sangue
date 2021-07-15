@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* HEADER */
+/* -------------------------------------- */
+.header {
+    background-color: #E12330;
+    color: white;
+    position: sticky;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-nome {
+    display: inline-block;
+    margin: 0 8px;
+}
+
+.menu {
+    width: 50%;
+}
+
+.menu-itens {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    height: 100%;
+}
+
+.menu-item {
+    text-decoration: none;
+    list-style: none;
+}
+.menu-item a {
+    text-decoration: none;
+    color: white;
+}
+
+/* MAIN /*
+/* -------------------------------------- */
+
+.banner {
+    width: 250px;
+    margin: 8px auto;
+}
+
+.banner h1,
+.banner h3 {
+    font-family: Abel, sans-serif;
+    color: #E12330;
+    text-align: center;
+    margin: 0;
+}
+
+.banner h3 {
+    position: relative;
+    bottom: 48px;
+}
