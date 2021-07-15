@@ -8,7 +8,9 @@ body {
 .header {
     background-color: #E12330;
     color: white;
-    position: sticky;
+    position: fixed;
+    width: 100%;
+    top: 0;
     padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
@@ -45,12 +47,17 @@ body {
     color: white;
 }
 
+.menu-item a:hover,
+.menu-item a:active {
+    color: rgb(230, 200, 200);
+}
+
 /* MAIN /*
 /* -------------------------------------- */
 
 .banner {
     width: 250px;
-    margin: 8px auto;
+    margin: 112px auto 32px;
 }
 
 .banner h1,
@@ -64,4 +71,34 @@ body {
 .banner h3 {
     position: relative;
     bottom: 48px;
+}
+
+.texto {
+    width: 70%;
+    margin: 32px auto;
+    text-align: left;
+    font-family: Abel, sans-serif;
+    color: #E12330;
+}
+
+.texto h4 {
+    margin-top: 32px;
+}
+
+.texto p,
+.texto li {
+    font-family: 'Open sans', sans-serif;
+    color: black;
+}
+
+.footer {
+    background-color: rgb(50, 50, 50);
+    color: rgb(150, 150, 150);
+    text-align: center;
+    margin-top: 64px;
+    padding: 4px;
+}
+
+.footer p {
+    margin: 0;
 }
